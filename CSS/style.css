@@ -112,6 +112,25 @@ main .main-about{
      min-width: 100%;
  }
 
+.main-team{
+    background-color: black;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+ .main-team h1{
+     font-size: 44px;
+     padding-bottom: 30px;
+ }
+
+ .line{
+     width: 100px;
+     height: 3px;
+     background: #fcac45;
+     position: relative;
+     left: 50px;
+     margin-bottom: 105px;
+ }
 
 
 
