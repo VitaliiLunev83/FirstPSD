@@ -128,15 +128,37 @@ main .main-about{
      height: 3px;
      background: #fcac45;
      position: relative;
-     left: 50px;
-     margin-bottom: 105px;
+     left: 45.5%;
+     margin-bottom: 85px;
  }
+.photo{
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+
+}
+
+.team-cards{
+    display:flex;
+}
+.card{
+    margin: 0 40px;
+}
 
 
-
-
-
-
+.name {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.position{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.about-position{
+    font-size: 14px;
+}
 
 
 
@@ -211,7 +233,14 @@ main .main-about{
      font-size: 20px;
  }
 
+ .team-cards{
+    display:flex;
+    flex-direction: column;
+}
 
+
+
+ 
 
 
 
