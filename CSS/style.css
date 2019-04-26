@@ -160,6 +160,35 @@ main .main-about{
     font-size: 14px;
 }
 
+.services__cards{
+   text-align: center;
+   display:grid;
+   grid-template-columns: auto auto auto auto;
+
+}
+ .main__services h1{
+    text-align: center;
+    text-transform: uppercase;
+    grid-column-gap: 20px;
+    padding:100px 0 30px 0;
+    
+}
+.main__services p{
+    margin-bottom: 100px;
+    color: #6c6c6c;  
+}
+
+
+.services__cards h4{
+    color: #222222;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+
+
+
 
 
 
@@ -238,7 +267,9 @@ main .main-about{
     flex-direction: column;
 }
 
-
+.services__cards {
+    grid-template-columns: auto;
+}
 
  
 
