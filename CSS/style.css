@@ -186,10 +186,40 @@ main .main-about{
 
 }
 
+.main__clints{
+    background: #000000;
+    padding: 100px 0 205px 0;
+    color: #fff;
+    text-align: center;
+}
+.main__clints h1{
+    margin-bottom: 30px;
+}
+.main__clints img{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.main__testimonials{
+    background-color: #000000;
+    text-align: center;
+    color: #FFF;  
+    padding-bottom: 170px;
+    
+}
+
+.main__testimonials .testimonials{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
 
 
 
-
+.main__testimonials h1{
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
 
 
 
